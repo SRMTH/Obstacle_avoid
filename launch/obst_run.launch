@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="obst_run" name="publisher" type="imgPub.py" output="screen"/>
+  <node pkg="obst_run" name="subscriber" type="obst_run.py" output="screen"/>
+</launch>
